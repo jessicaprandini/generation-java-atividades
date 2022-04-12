@@ -2,10 +2,12 @@ package lista1;
 
 import java.util.Scanner;
 
+	//1- Faça um programa que receba três inteiros e diga qual deles é o maior.
 
-public class Atividade1 {
-  public static void main(String args[]) 
- {
+public class Atividade1 { 
+	public static void main(String args[]) {
+	  
+	  
 	  Scanner ler = new Scanner(System.in);
 	  int n1,n2,n3;
 	  
@@ -17,6 +19,8 @@ public class Atividade1 {
 	  
 	  System.out.printf("Digite o terceiro número: \n");
 	  n3 = ler.nextInt();
+	  
+	  ler.close();
 	  
 	  int maior; 
 	  

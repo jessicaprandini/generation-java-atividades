@@ -3,6 +3,7 @@ package lista1;
 import java.util.Arrays;
 import java.util.Scanner;
 
+    // 2- Faça um programa que entre com três números e coloque em ordem crescente.
 
 public class Atividade2 {
   public static void main(String args[]) 
@@ -60,5 +61,6 @@ public class Atividade2 {
 			  }
 	  }
 	  System.out.printf("Valores em ordem crescente: " + Arrays.toString(valores));
+	  ler.close();
  }
 }
